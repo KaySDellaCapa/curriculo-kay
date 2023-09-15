@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Kayque S. Della Capa</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300;500;700&display=swap" >
+
+
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="/assets/img/my-photo.jpeg" alt="Foto do Kayque" class="photo">
+
+            <h1 class="title">
+                Olá, <br> eu sou Kayque S. Della Capa
+            </h1>
+
+            <div class="information"> 
+                <p class="job">Junior Developer</p>
+                <p class="location">São Paulo - SP</p>
+                <p class="phone">
+                    <a href="tel: (11) 96546-7317">(11) 96546-7317</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:ksdellacapa@gmail.com">ksdellacapa@gmail.com</a>
+                </p>
+            </div>
+        </header>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                   <h2>Skills</h2> 
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/languages/python.svg" alt="Python" title="Python">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/languages/mongoDB.svg" alt="MongoDB" title="MongoDB">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/languages/js.svg" alt="JavaScript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/languages/nodejs.svg" alt="NodeJS" title="NodeJS">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/languages/java.svg" alt="Java" title="Java">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Habilidades Pessoais:</h3>
+                        <ul>
+                            <li>Criativo</li>
+                            <li>Comunicação</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Aprendizado rápido</li>
+                            <li>Comprometimento</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                   <h2>Idiomas</h2> 
+            </button>
+            <div class="content">
+                <ul class="languages">
+                    <li>Português (BR)</li>
+                    <li>Inglês - Avançado</li>
+                    <li>Espanhol - Básico</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                    <h2>Portfólio</h2>
+            </button>
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">Pokedex</h3>
+                        <a href="https://github.com/KaySDellaCapa/js-developer-pokedex" target="_blank">https://github.com/KaySDellaCapa/js-developer-pokedex</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Sistema Bancário</h3>
+                        <a href="https://github.com/KaySDellaCapa/Sistema_bancario_Modelado_POO_PY" target="_blank">https://github.com/KaySDellaCapa/Sistema_bancario_Modelado_POO_PY</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Socket UDP Server</h3>
+                        <a href="https://github.com/KaySDellaCapa/Socket_UDP_server" target="_blank">https://github.com/KaySDellaCapa/Socket_UDP_server</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                    <h2>Experiência Profissional</h2>
+            </button>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Freelance Developer</h3>
+                        <p class="period">Jan 2023 - Atualmente</p>
+                        <p>
+                            Enquanto faço faculdade de Análise e Desenvolvimento de Sistemas e cursos na DIO, também desenvolvo projetos para ganhar experiência e conhecimento
+                        </p>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </section>
+    </main>
+
+
+    <script src="/assets/js/acordeon.js"></script>
+</body>
+</html>
